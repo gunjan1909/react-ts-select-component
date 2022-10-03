@@ -9,6 +9,7 @@
   padding: 0.5em;
   border-radius: 0.25em;
   outline: none;
+  box-shadow: 0px 3px 20px -7px rgba(0, 0, 0, 0.75);
 }
 
 .container:focus {
@@ -82,4 +83,33 @@
 .option.highlighted {
   background-color: hsl(200, 100%, 50%);
   color: white;
+}
+
+.option-badge {
+  display: flex;
+  align-items: center;
+  border: 0.05em solid #777;
+  border-radius: 0.25em;
+  padding: 0.15em 0.25em;
+  gap: 0.25em;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.option-badge:hover,
+.option-badge:focus {
+  background-color: hsl(0, 100%, 90%);
+  border-color: hsl(0, 100%, 50%);
+}
+
+.option-badge:hover > .remove-btn,
+.option-badge:focus > .remove-btn {
+  color: hsl(0, 100%, 50%);
+}
+
+.option-badge > .remove-btn {
+  font-size: 1.25em;
+  color: #777;
 }

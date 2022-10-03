@@ -9,9 +9,6 @@ const options = [
   { label: "Fifth", value: 5 },
   { label: "Six", value: 6 },
   { label: "Seven", value: 7 },
-  { label: "Eight", value: 8 },
-  { label: "Nine", value: 9 },
-  { label: "Ten", value: 10 },
 ];
 
 function App() {
