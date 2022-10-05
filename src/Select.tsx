@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import styles from "./Select.module.css";
+import styles from "./select.module.css";
 
 export type SelectOption = {
   label: string;
