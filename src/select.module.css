@@ -104,12 +104,12 @@
   border-color: hsl(0, 100%, 50%);
 }
 
-.option-badge:hover > .remove-btn,
-.option-badge:focus > .remove-btn {
+.option-badge:hover>.remove-btn,
+.option-badge:focus>.remove-btn {
   color: hsl(0, 100%, 50%);
 }
 
-.option-badge > .remove-btn {
+.option-badge>.remove-btn {
   font-size: 1.25em;
   color: #777;
 }
